@@ -73,7 +73,7 @@ a {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 360px) {
   .accordion-slider-title,
   .accordion-slider-content {
     opacity: 1;
@@ -208,15 +208,15 @@ a {
 .navbar-custom .navbar-toggle .icon-bar {
   background: #fff;
 }
-
-.dropdown-menu {
-  min-width: 180px;
-  font-size: 11px;
-}
-@media (max-width: 767px) {
+@media (max-width: 360px) {
   /* Navbar */
   .navbar-custom .navbar-nav {
     letter-spacing: 3px;
     margin-top: 1px;
     margin-bottom: 0;
   }
+
+.dropdown-menu {
+  min-width: 180px;
+  font-size: 11px;
+}
