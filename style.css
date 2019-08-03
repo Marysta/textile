@@ -87,8 +87,8 @@ a {
     float: none;
     width: 100%;
     text-align: center;
-    min-height: 400px;
-    height: 100vh;
+    min-height: 200px;
+    height: 50vh;
   }
   .accordion-slider .box > .inner {
     width: 100%;
