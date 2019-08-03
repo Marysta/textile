@@ -73,7 +73,7 @@ a {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .accordion-slider-title,
   .accordion-slider-content {
     opacity: 1;
@@ -213,3 +213,10 @@ a {
   min-width: 180px;
   font-size: 11px;
 }
+@media (max-width: 767px) {
+  /* Navbar */
+  .navbar-custom .navbar-nav {
+    letter-spacing: 3px;
+    margin-top: 1px;
+    margin-bottom: 0;
+  }
