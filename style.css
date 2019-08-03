@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 a {
@@ -11,7 +11,7 @@ a {
 }
 
 .button {
-  background: #333;
+  background: #02352c;
   padding: 8px 12px;
   color: #fff;
   font-size: 11px;
