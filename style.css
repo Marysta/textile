@@ -72,7 +72,7 @@ a {
   color: #fff;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 549px) {
   .accordion-slider-title,
   .accordion-slider-content {
     opacity: 1;
@@ -87,8 +87,8 @@ a {
     float: none;
     width: 100%;
     text-align: center;
-    
-    height: 50vh;
+    min-height: 400px;
+    height: 100vh;
   }
   .accordion-slider .box > .inner {
     width: 100%;
