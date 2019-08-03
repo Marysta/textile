@@ -72,7 +72,7 @@ a {
   color: #fff;
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 370px) {
   .accordion-slider-title,
   .accordion-slider-content {
     opacity: 1;
