@@ -73,7 +73,7 @@ a {
 }
 
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 480px) {
   .accordion-slider-title,
   .accordion-slider-content {
     opacity: 1;
