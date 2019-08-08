@@ -38,6 +38,10 @@ a {
   background: #000 url('3_1.jpg') no-repeat center center;
   background-size: cover;
 }
+.accordion-slider .box.four-box {
+  background: #000 url('101.jpg') no-repeat center center;
+  background-size: cover;
+}
 
 .accordion-slider .box {
   display: block;
