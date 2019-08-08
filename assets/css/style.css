@@ -1250,7 +1250,7 @@ General Styles - Owlcarousel
 	Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-  background-color: rgba(10, 10, 10, 0.2);
+  background-color: rgba(10, 10, 10, 0.4);
   border: 0;
   border-radius: 0;
   z-index: 1000;
