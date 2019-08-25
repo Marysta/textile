@@ -246,6 +246,10 @@ a,
 .bg-dark-90 .alt-module-subtitle h5 {
   color: #fff;
 }
+.btn-warning {
+  background-color: #c8981e;
+  
+}
 
 .bg-dark {
   background: #02352c;
@@ -313,6 +317,9 @@ a,
 }
 .bg-emerald {
   background: #02352c;
+}
+.bg-gold {
+  background: #c8981e;
 }
 
 .parallax-bg {
@@ -1250,8 +1257,8 @@ General Styles - Owlcarousel
 	Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-  background-color: rgba(10, 10, 10, 0.4);
-  border: 0;
+  background-color: rgba(2, 53, 44, 0.9);
+  border:0;
   border-radius: 0;
   z-index: 1000;
   font-family: "Roboto Condensed", sans-serif;
@@ -1266,7 +1273,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .dropdown-menu {
-  background: rgba(26, 26, 26, 1);
+  background: rgba(10, 10, 10, 0.9);
   border-radius: 0;
   border: 0;
   padding: 0;
@@ -1277,20 +1284,20 @@ General Styles - Owlcarousel
   letter-spacing: 4px;
   font-weight: 400;
   font-size: 22px;
-  color: #fff;
+  color: #c8981e;
   left: 90%;
 }
 
 .navbar-custom .nav li > a {
   position: relative;
-  color: rgba(255, 255, 255, 1);
+  color: #c8981e;
 }
 
 .navbar-custom .dropdown-menu > li > a {
   border-bottom: 1px solid rgba(73, 71, 71, 0.15) !important;
   padding: 11px 15px;
   letter-spacing: 2px;
-  color: #fff;
+  color: #c8981e;
 }
 
 .navbar-custom .dropdown-menu .dropdown-menu {
@@ -1320,7 +1327,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .dropdown-menu > li > a:hover {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(255, 255, 255, 0.5) !important;
 }
 
 .navbar-custom .dropdown-toggle:after {
