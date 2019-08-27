@@ -2962,9 +2962,10 @@ Google map
 
 @media (max-width: 767px) {
   .dws {
- position: absolute;
+ position: fixed;
  top: 95%;
  left: 50%;
+z-index: -1;
  transform: translate(-50%, -50%);}
 }
   
