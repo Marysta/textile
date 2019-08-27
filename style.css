@@ -213,6 +213,13 @@ a {
 .navbar-custom .navbar-toggle .icon-bar {
   background: #fff;
 }
+
+
+.dropdown-menu {
+  min-width: 180px;
+  font-size: 11px;
+}
+
 @media (max-width: 360px) {
   /* Navbar */
   .navbar-custom .navbar-nav {
