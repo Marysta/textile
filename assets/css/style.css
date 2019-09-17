@@ -2958,6 +2958,7 @@ Google map
  top: 88%;
  left: 97%;
  transform: translate(-50%, -50%);
+ z-index:999;
 }
 
 @media (max-width: 767px) {
