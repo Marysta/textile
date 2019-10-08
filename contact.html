@@ -124,25 +124,27 @@
             <div class="row">
               <div class="col-sm-6">
                 <h4 class="font-alt">Зворотній зв'язок</h4><br/>
-                <form id="contactForm" role="form" method="post" action="php/contact.php">
-                  <div class="form-group">
-                    <label class="sr-only" for="name">Ім'я</label>
-                    <input class="form-control" type="text" id="name" name="name" placeholder="Ваше ім'я*" required="required" data-validation-required-message="Please enter your name."/>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <label class="sr-only" for="email">Email</label>
-                    <input class="form-control" type="email" id="email" name="email" placeholder="Ваш Email*" required="required" data-validation-required-message="Please enter your email address."/>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Ваше Повідомлення*" required="required" data-validation-required-message="Please enter your message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="text-center">
-                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Надіслати</button>
-                  </div>
-                </form>
+                <form class="form rqst-form" action="https://formspree.io/anetze@gmail.com "
+      method="POST">
+                    <div class="form-group col-sm-6 col-xs-12">
+                      <input class="form-control input-lg" type="text" name="name" placeholder="Ваше Імя"/>
+                    </div>
+                    
+                    <div class="form-group col-sm-6 col-xs-12">
+                      <input class="form-control input-lg" type="text" name="phone" placeholder="Номер телефону"/>
+                    </div>
+                      <div class="form-group col-sm-6 col-xs-12">
+                      <input class="form-control input-lg" type="text" name="subject" placeholder="Примітки"/>
+                    </div>
+                    <div class="form-group col-sm-6 col-xs-12">
+                      <button class="btn btn-warning btn-block btn-round" id="racSubmit" type="submit"><i class="fa fa-paper-plane-o"></i>ЗАМОВИТИ</button>
+                    </div>
+                    
+                    <input type="hidden" name="_next" value="http://textileboutique.com.ua/sent.html" />
+                    <input type="hidden" name="_language" value="uk" />
+                  
+                    <div id="requestFormResponse"></div>
+                  </form>
                 <div class="ajax-response font-alt" id="contactFormResponse"></div>
               </div>
               <div class="col-sm-6">
